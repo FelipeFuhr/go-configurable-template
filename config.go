@@ -20,7 +20,7 @@ type appConfig struct {
 var optionalFields []string
 
 func init() {
-	// Change these values to specify that a field is optional
+	// Add fields to specify they are optional
 	optionalFields = append(optionalFields, "OptionalArgument",
 		"OptionalArgument2",
 		"OptionalArgument3")

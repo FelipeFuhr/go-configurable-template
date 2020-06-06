@@ -8,17 +8,18 @@ Fields that can be found inside the <i>config.json</i> file:
 type appConfig struct {
 	Name             string
 	Description      string
+	ServerAddress    string
 	OptionalArgument string
 }
 ```
 
 ***
 
-Define optional fields (i.e: fields that are not required inside <i>config.json</i> file)
+Define optional fields (i.e: specify that these fields are not required inside the <i>config.json</i> file)
 ``` Go
-var optionalFields []string = []string{
-	"OptionalArgument",
-}
+optionalFields = append(optionalFields, "OptionalArgument",
+		"OptionalArgument2",
+		"OptionalArgument3")
 ```
 
 ***
