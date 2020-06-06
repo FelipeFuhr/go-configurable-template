@@ -1,0 +1,5 @@
+{
+    "name": "Template-Config",
+    "description": "Simple Application with Configurations given in a JSON named config.json",
+    "serverAddress": "127.0.0.1:8080"
+}

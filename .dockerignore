@@ -1,0 +1,11 @@
+# Git Related Stuff
+.git
+.gitignore
+README.md
+
+# Temporary data
+*.csv
+/tmp/*
+
+# Other Files
+Makefile
