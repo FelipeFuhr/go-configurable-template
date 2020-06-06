@@ -8,4 +8,9 @@ README.md
 /tmp/*
 
 # Other Files
+govet-output.json
 Makefile
+*.sh
+
+# Golang Test Files
+config_test.go

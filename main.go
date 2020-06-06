@@ -11,6 +11,7 @@ func init() {
 }
 
 func main() {
+	// Load Application Configuration
 	config, err := ReadConfig("config.json")
 	if err != nil {
 		log.Fatal(err)
